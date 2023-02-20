@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
@@ -18,6 +18,11 @@ import { BannerComponent } from './banner/banner.component';
   ],
   imports: [
     BrowserModule,
+    RouterModule.forRoot([
+      { path: 'login', component: LoginComponent },
+      { path: 'signup', component: SignupComponent },
+    ]),
+    
     AppRoutingModule
   ],
   providers: [],
