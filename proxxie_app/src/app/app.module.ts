@@ -8,6 +8,10 @@ import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { BannerComponent } from './banner/banner.component';
 import { HomeComponent } from './home/home.component';
+import { StudentComponent } from './student/student.component';
+import { SchoolComponent } from './school/school.component';
+import { ParentsComponent } from './parents/parents.component';
+import { HumanressourceComponent } from './humanressource/humanressource.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +20,11 @@ import { HomeComponent } from './home/home.component';
     LoginComponent,
     SignupComponent,
     BannerComponent,
-    HomeComponent
+    HomeComponent,
+    StudentComponent,
+    SchoolComponent,
+    ParentsComponent,
+    HumanressourceComponent
   ],
   imports: [
     BrowserModule,
